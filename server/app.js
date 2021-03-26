@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const expressHandlebars = require('express-handlebars');
 const session = require('express-session');
 const RedisStore = require('connect-redis')(session);
+const redis = require('redis');
 const url = require('url');
 const csrf = require('csurf');
 
